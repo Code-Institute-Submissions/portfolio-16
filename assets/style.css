@@ -1,41 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:900,800,500|Raleway:100,200,300,400,500,600&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
 
 /* ---------------------------------------- Nav items */
+nav {
+    position: fixed;
+    left: 5%;
+    top: 300px;
+    z-index: 1;
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+}
+nav ul{
+    list-style-type: none;
+}
+nav a{
+    color:#8D7569;
+}
+nav a:hover {
+  color: #fff;;
+  text-decoration: none;
+}
+
+/*@media only screen and (min-width: 1412px) {
+    .nav-container{
+        position: absolute;
+        top:0;
+        background-color: aqua;
+    }
+  nav {
+    position: relative;
+    left: 0px;
+  }
+}*/
+
+/* ---------------------------------------- Me */
 #main-title{
-    background-color: rgba(87, 194, 38, 0.295);
+    /*background-color: rgba(87, 194, 38, 0.295);*/
     position: absolute;
     left: 20vw;
-    top: 200px;
+    top: 400px;
+    font-family: 'Lora', serif;
+    color:#402429;
+    font-weight: 800;
+    text-align: right;
+    line-height: 1.6;
+}
+h1>span{ /* for && */
+    letter-spacing: -5px;
+    color: white;
 }
 
 #intro-text{
-    background-color: rgba(87, 194, 38, 0.295);
+    /*background-color: rgba(87, 194, 38, 0.295);*/
     position: absolute;
     right: 10vw;
     top: 100px;
+    text-align: right;
+    font-weight: 400;
 }
 
 #contact{
-    background-color: rgba(87, 194, 38, 0.295);
+    /*background-color: rgba(87, 194, 38, 0.295);*/
     position: absolute;
+    color:#402429;
     right: 20vw;
     bottom: 0;
 }
 
 .col-background{
     position: relative;
-    background-image: url("images/hero_image4.png");
+    background-image: url("images/hero_image.png");
     min-width: 100vw;
+    max-width: 1412px;
     background-position: center top;
     min-height: 90vh;
     background-repeat: no-repeat;
 }
 
 
-
-/* ---------------------------------------- Nav items */
-nav {
-    position: fixed;
-    left: 5vw;
-    top: 200px;
-    z-index: 1;
+@media only screen and (max-width: 768px) {
+  .col-background {
+    background-size: 250%;
+  }
 }
+
+
+
