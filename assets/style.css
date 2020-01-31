@@ -10,10 +10,11 @@ body{
 
     .nav-container{
             position: fixed;
+            left: 50%;
             z-index: 1;
             height: 100%;
             max-width: 1412px;
-            background-color: aqua;
+            background-color: rgba(63, 169, 255, 0.2);
     }
 
 
@@ -89,11 +90,11 @@ h1>span{ /* for && */
 }
 
 
-@media only screen and (max-width: 768px) {
+/*@media only screen and (max-width: 479px) {
   .hero-image {
-    background-size: 250%;
+    background-size: 500%;
   }
-}
+}*/
 
 
 
