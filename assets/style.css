@@ -7,6 +7,16 @@ body{
 }
 
 /* ---------------------------------------- Nav items */
+
+    .nav-container{
+            position: fixed;
+            z-index: 1;
+            height: 100%;
+            max-width: 1412px;
+            background-color: aqua;
+    }
+
+
 nav {
     position: fixed;
     left: 5%;
@@ -27,11 +37,7 @@ nav a:hover {
 }
 
 /*@media only screen and (min-width: 1412px) {
-    .nav-container{
-        position: absolute;
-        top:0;
-        background-color: aqua;
-    }
+    
   nav {
     position: relative;
     left: 0px;
@@ -72,7 +78,7 @@ h1>span{ /* for && */
     bottom: 0;
 }
 
-.col-background{
+.hero-image{
     position: relative;
     background-image: url("images/hero_image.png");
     min-width: 100vw;
@@ -84,7 +90,7 @@ h1>span{ /* for && */
 
 
 @media only screen and (max-width: 768px) {
-  .col-background {
+  .hero-image {
     background-size: 250%;
   }
 }
