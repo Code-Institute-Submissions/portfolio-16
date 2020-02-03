@@ -82,25 +82,26 @@ h1>span{ /* for && */
 .hero-image{
     /*position: relative;*/
     background-image: url("images/hero_image.png");
-    min-width: 100vw;
-    /*max-width: 1412px;*/
     background-position: center top;
-    min-height: 90vh;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 100%;
+    background-attachment: fixed;
+    min-height: 90vh;
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .hero-image{
+        background-size: 200%;    
+    }
 }
 
 /* ---------------------------------------- Experience */
 
 .experience-background{
     background-color: #EDCCB9;
-    max-width: 1412px;
     height: 90vh;
 }
 
-.row{
-    background-color: rgba(63, 169, 255, 0.2);
-    min-height: 90vh;
-}
 
 
