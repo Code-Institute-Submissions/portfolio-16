@@ -8,14 +8,14 @@ body{
 
 /* ---------------------------------------- Nav items */
 
-    .nav-container{
+    /*.nav-container{
             position: fixed;
             left: 50%;
             z-index: 1;
             height: 100%;
             max-width: 1412px;
-            background-color: rgba(63, 169, 255, 0.2);
-    }
+            /*background-color: rgba(63, 169, 255, 0.2);
+    }*/
 
 
 nav {
@@ -80,21 +80,27 @@ h1>span{ /* for && */
 }
 
 .hero-image{
-    position: relative;
+    /*position: relative;*/
     background-image: url("images/hero_image.png");
     min-width: 100vw;
-    max-width: 1412px;
+    /*max-width: 1412px;*/
     background-position: center top;
     min-height: 90vh;
     background-repeat: no-repeat;
+    background-size: auto;
 }
 
+/* ---------------------------------------- Experience */
 
-/*@media only screen and (max-width: 479px) {
-  .hero-image {
-    background-size: 500%;
-  }
-}*/
+.experience-background{
+    background-color: #EDCCB9;
+    max-width: 1412px;
+    height: 90vh;
+}
 
+.row{
+    background-color: rgba(63, 169, 255, 0.2);
+    min-height: 90vh;
+}
 
 
