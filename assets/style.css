@@ -85,7 +85,7 @@ h1>span{ /* for && */
     background-position: center top;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     min-height: 90vh;
     
 }
@@ -100,7 +100,51 @@ h1>span{ /* for && */
 
 .experience-background{
     background-color: #EDCCB9;
-    height: 90vh;
+    min-height: 90vh;
+    position: relative;
+}
+
+.title>h2{
+    font-family: 'Lora', serif;
+    font-weight: 800;
+    font-size: 8vh;
+    line-height: 7vh;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.experience-item>h3{
+    font-family: 'Lora', serif;
+    color: #402429;
+    font-size: 4vh;
+}
+
+.experience-item span{
+    font-weight: 300;
+    text-align: right;
+}
+
+.experience-item{
+    background-color: rgba(255, 254, 254, 0.3);
+    width: 50%;
+    margin: 2%;
+    padding: 3% 3% 3% 10%;
+    position: relative;
+    left: 30%;
+}
+
+.experience-item i{
+    color: #EDCCB9;
+    font-size: 300%;
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+
+.experience-item div{
+    display: inline-block;
 }
 
 
