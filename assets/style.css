@@ -6,7 +6,15 @@ body{
     color: #fff;
 }
 
-/* ---------------------------------------- Nav items */
+a {
+    color:#8D7569;
+}
+a:hover {
+  color: #fff;;
+  text-decoration: none;
+}
+
+/* ----------------------------------------------------------------------------------------------------- Nav items */
 
     /*.nav-container{
             position: fixed;
@@ -29,25 +37,9 @@ nav {
 nav ul{
     list-style-type: none;
 }
-nav a{
-    color:#8D7569;
-}
-nav a:hover {
-  color: #fff;;
-  text-decoration: none;
-}
 
-/*@media only screen and (min-width: 1412px) {
-    
-  nav {
-    position: relative;
-    left: 0px;
-  }
-}*/
-
-/* ---------------------------------------- Me */
+/* ----------------------------------------------------------------------------------------------------- Me */
 #main-title{
-    /*background-color: rgba(87, 194, 38, 0.295);*/
     position: absolute;
     left: 20vw;
     top: 400px;
@@ -63,7 +55,6 @@ h1>span{ /* for && */
 }
 
 #intro-text{
-    /*background-color: rgba(87, 194, 38, 0.295);*/
     position: absolute;
     right: 10vw;
     top: 100px;
@@ -72,7 +63,7 @@ h1>span{ /* for && */
 }
 
 #contact{
-    /*background-color: rgba(87, 194, 38, 0.295);*/
+    background-color: rgba(243, 243, 243, 0.295);
     position: absolute;
     color:#402429;
     right: 20vw;
@@ -80,14 +71,11 @@ h1>span{ /* for && */
 }
 
 .hero-image{
-    /*position: relative;*/
     background-image: url("images/hero_image.png");
     background-position: center top;
     background-repeat: no-repeat;
     background-size: 100%;
-    /*background-attachment: fixed;*/
-    min-height: 90vh;
-    
+    min-height: 90vh;   
 }
 
 @media only screen and (max-width: 800px) {
@@ -96,12 +84,11 @@ h1>span{ /* for && */
     }
 }
 
-/* ---------------------------------------- Experience */
+/* ----------------------------------------------------------------------------------------------------- Experience */
 
 .experience-background{
     background-color: #EDCCB9;
     min-height: 90vh;
-    position: relative;
 }
 
 .title>h2{
@@ -118,10 +105,11 @@ h1>span{ /* for && */
 .experience-item>h3{
     font-family: 'Lora', serif;
     color: #402429;
-    font-size: 4vh;
+    font-size: 170%;
+    padding-bottom: 1%;
 }
 
-.experience-item span{
+.experience-item span { /* Link to projects */
     font-weight: 300;
     text-align: right;
 }
@@ -135,17 +123,41 @@ h1>span{ /* for && */
     left: 30%;
 }
 
+.languages-code {
+    text-align: right;
+    padding-right: 10%;
+}
+
+.languages-speach {
+    float: right;
+    text-align: left;
+    padding-left: 10%;
+}
+
+/* --------------- Icons */
 .experience-item i{
     color: #EDCCB9;
     font-size: 300%;
-    position: absolute;
-    left: 10%;
-    top: 15%;
 }
 
-.experience-item div{
-    display: inline-block;
+.right-icons{
+    left: 55% !important;
 }
+
+.experience-item i {     
+    position: absolute;
+    left: 7%;
+    top: 40%;
+}
+
+/* ----------------------------------------------------------------------------------------------------- I like doing */
+
+.I-like-background{
+    background-color: #C3E1E3;
+    min-height: 90vh;
+}
+
+
 
 
 
