@@ -75,7 +75,8 @@ h1>span{ /* for && */
     background-position: center top;
     background-repeat: no-repeat;
     background-size: 100%;
-    min-height: 90vh;   
+    min-height: 90vh;  
+    transition: all .5s ease-in-out; 
 }
 
 @media only screen and (max-width: 800px) {
@@ -88,15 +89,19 @@ h1>span{ /* for && */
 
 .experience-background{
     background-color: #EDCCB9;
-    min-height: 90vh;
+    /*min-height: 90vh;*/
 }
 
-.title>h2{
+.title-right>h2,
+.title-left>h2 {
     font-family: 'Lora', serif;
     font-weight: 800;
     font-size: 8vh;
     line-height: 7vh;
     text-align: right;
+}
+
+.title-right>h2{
     position: absolute;
     bottom: 0;
     right: 0;
@@ -154,7 +159,55 @@ h1>span{ /* for && */
 
 .I-like-background{
     background-color: #C3E1E3;
-    min-height: 90vh;
+    /*min-height: 90vh;*/
+}
+
+.title-left>h2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.I-like-wrapper{
+    /*background-color: rgb(221, 230, 213);*/
+    min-height: 100%;
+    padding-left: 30vw;
+    margin: 0;
+}
+
+.I-like-item {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    margin: 2%;
+    padding: 3% 3% 3% 3%;
+    /*min-height: 70vh;
+    margin: 0 auto;*/
+
+}
+
+.I-like-img{
+    width: 100%;
+    height: 20vh;
+    background-color: #fe34fe;
+    border-radius: 45px;
+}
+
+.I-like-content {
+    min-height: 200px;
+    background-color: #3bfe34;
+}
+
+.I-like-item h3{
+    color: #402429;
+    font-family: 'Lora', serif;
+    font-size: 120%;
+}
+
+.I-like-item>p{
+    font-weight: 300;
+    font-size: 80%;
+    text-align: right;
 }
 
 
