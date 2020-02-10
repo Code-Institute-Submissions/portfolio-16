@@ -89,7 +89,7 @@ h1>span{ /* for && */
 
 .experience-background{
     background-color: #EDCCB9;
-    /*min-height: 90vh;*/
+    min-height: 90vh;
 }
 
 .title-right>h2,
@@ -164,7 +164,7 @@ h1>span{ /* for && */
 
 .title-left>h2{
     position: absolute;
-    bottom: 0;
+    bottom: 1%;
     left: -15px;
 }
 
@@ -246,6 +246,70 @@ h1>span{ /* for && */
     bottom: 0;
     left: 160px;
     color: rgba(255, 255, 255, 0.5);
+}
+
+/* ----------------------------------------------------------------------------------------------------- What I studied */
+
+.I-studied-background {
+    background-color: #F2CED1;
+    min-height: 90vh;
+}
+
+.I-studied-wrapper{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: inline;
+    float: left;
+    /*background-color: fuchsia;*/
+}
+
+.I-studied-item {
+    width: 50%;
+    display: block;
+    float: right;
+    margin-left: 20px;
+    color: #402429;
+}
+
+.I-studied-item h4, .I-studied-item p {
+    font-weight: 300px;
+    font-size: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+.I-studied-item>h3{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+    font-size: 150%;
+}
+
+hr{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.other-courses{
+    width: 50%;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.other-courses span{
+    font-size: 140%;
+}
+
+/* ----------------------------------------------------------------------------------------------------- Footer */
+.footer-background{
+    background-color: #402429;
+    min-height: 10vh;
+
+}
+
+.footer-background>a>i{
+    padding: 5px;
+    font-size: 120%;
+    margin-top: 3vh;
 }
 
 
