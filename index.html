@@ -21,29 +21,29 @@
 
 <body>
 	<div class="container-fluid nav-container">
-		<nav class="d-md-block d-none">
+		<nav class="d-none d-lg-block">
 			<ul>
-				<li><a href="#">Me</a></li>
-				<li><a href="#">Experience</a></li>
-				<li><a href="#">What I like doing</a></li>
-				<li><a href="#">What I studied</a></li>
-				<li><a href="#">Things I created</a></li>
+				<li><a href="#me">Me</a></li>
+				<li><a href="#experience">Experience</a></li>
+				<li><a href="#I-like">What I like doing</a></li>
+				<li><a href="#I-studied">What I studied</a></li>
+				<li><a href="I-created.html">Things I created</a></li>
 				<li><a href="#">CV</a></li>
 			</ul>
 		</nav>
 	</div>
 
-	<section>
+	<section id="me">
 		<div class="container-fluid">
 			<div class="row hero-image">
 				<div class="col-12">
-					<div class="col-6 col-sm-3" id="main-title">
+					<div class="col-6 col-lg-3" id="main-title">
 						<h1>Developer,<br>Designer<span> &&</span><br>Dreamer</h1>
 					</div>
 					<div class="col-2" id="intro-text">
 						<p> Hi, I'm Fernanda! A graphic designer that has recently fallen in love with coding.</p>
 					</div>
-					<div class="col-6 col-sm-3" id="contact">
+					<div class="col-12" id="contact">
 						<h6>Fernanda Cetnarovski, Dublin <br>ski.fernanda@gmail.com || 087 441 7340</h6>
 					</div>
 				</div>
@@ -51,10 +51,10 @@
 		</div>
 	</section>
 
-	<section>
+	<section id="experience">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-12 experience-background">
+				<div class="col-12 experience-background background">
 					<div class="experience-item">
 						<h3>Smartbox Group</h3>
 						<i class="fa fa-briefcase d-none d-md-block" aria-hidden="true"></i>
@@ -92,10 +92,10 @@
 		</div>
 	</section>
 
-	<section>
+	<section id="I-like">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-12 I-like-background">
+				<div class="col-12 I-like-background background">
 					<div class="col I-like-wrapper">
 						<div class="col-12 col-lg-3 I-like-item">
 							<div class="I-like-img espaco-img"></div>
@@ -131,7 +131,7 @@
 							<h2>I like<br>doing</h2>
 						</div>
 						<div class="shy-text-wrapper">
-							<div class="shy-text">
+							<div class="shy-text col-8 col-lg-10">
 								<p><i>...and subjects that interest me:</i> gaming, Playstation, psychology, behavior,
 									French,
 									linguistics, personal development, reading, writing, coding, cocktails, creating...
@@ -144,10 +144,10 @@
 		</div>
 	</section>
 
-	<section>
+	<section id="I-studied">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col I-studied-background">
+				<div class="col I-studied-background background">
 					<div class="col-12 col-lg-6 text-right I-studied-wrapper">
 						<div class="I-studied-item">
 							<h4>Code Institute</h4>
@@ -175,15 +175,21 @@
 					</div>
 
 					<div class="col-12 col-lg-6 I-studied-wrapper">
-						<div class="other-courses">
-							
-							<p><span>Other courses</span> on linkedIn learning and sololearn platform: JavaScript: Functions
-								Web Development Foundations:
-								Web Technologies
-								Learning the JavaScript Language
-								Learning GREP with InDesign
-								After Effects CC 2015 Essential
-								Training</p>
+						<div class="other-courses col-6">
+							<p><span>Other courses</span> on linkedIn learning and other platforms: Artificial Intelligence Foundations: Thinking Machines,
+                                Introduction to Video <span>Color Correction</span>,
+                                JavaScript: <span>Functions</span>,
+                                JavaScript: <span>Prototypes</span>,
+                                Learning the <span>JavaScript</span> Language,
+                                <span>After Effects</span> CC 2015 Essential Training,
+                                Developing Your <span>Emotional Intelligence</span>,
+                                JavaScript Tutorial course,
+                                <span>InDesign: Scripting</span> Made Easy,
+                                Learning <span>GREP with InDesign</span>,
+                                Learning <span>Regular Expressions</span>,
+                                Web Development Foundations: Web Technologies,
+                                <span>HTML</span> Fundamentals course.
+                            </p>
 						</div>
 					</div>
 
@@ -205,6 +211,7 @@
 			</div>
 		</div>
 	</footer>
+
 </body>
 
 </html>
