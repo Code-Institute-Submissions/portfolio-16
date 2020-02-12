@@ -15,8 +15,7 @@ a:hover {
 }
 
 /*.background{
-    padding-top: 5%;
-    padding-bottom: 2%;
+    width: 100vw;
 }*/
 
 /*.row{
@@ -182,7 +181,7 @@ h1>span{ /* for && */
 .I-like-wrapper{
     /*background-color: rgb(221, 230, 213);*/
     min-height: 100%;
-    padding-left: 30vw;
+    /*padding-left: 30vw;*/
     margin: 0;
 }
 
@@ -191,8 +190,9 @@ h1>span{ /* for && */
     background-color: rgba(255, 255, 255, 0.5);
     width: 100%;
     /*min-height: 40vh;*/
-    margin: 2%;
-    padding: 3%;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
 }
 
 .I-like-img{
@@ -225,8 +225,8 @@ h1>span{ /* for && */
 .I-like-item h3{
     color: #402429;
     font-family: 'Lora', serif;
-    line-height: 30px;
-    font-size: 120%;
+    line-height: 3vh;
+    font-size: 2vh;
 }
 
 .I-like-content h2{
@@ -245,7 +245,7 @@ h1>span{ /* for && */
     font-weight: 300;
     font-size: 75%;
     text-align: right;
-    padding-top: 10%;
+    padding-top: 2vh;
     /*padding-bottom: 10%;*/
 }
 
@@ -253,17 +253,21 @@ h1>span{ /* for && */
     height: 100px;
 }
 .shy-text {
-    position: absolute;
+    /*position: absolute;
     bottom: 0;
-    right: 0;
+
+    right: 0;*/
+    text-align: left;
+    margin-top: 5vh;
     color: rgba(255, 255, 255, 0.5);
+    float: right;
 }
 
 /* ----------------------------------------------------------------------------------------------------- What I studied */
 
 .I-studied-background {
     background-color: #F2CED1;
-    /*min-height: 90vh;*/
+    min-height: 90vh;
 }
 
 .I-studied-wrapper{
@@ -275,16 +279,15 @@ h1>span{ /* for && */
 }
 
 .I-studied-item {
-    width: 50%;
-    display: block;
-    float: right;
+    /*display: block;
+    float: right;*/
     margin-left: 20px;
     color: #402429;
 }
 
 .I-studied-item h4, .I-studied-item p {
     font-weight: 300px;
-    font-size: 90%;
+    font-size: 2vh;
     margin: 0;
     padding-top: 8px;
 }
@@ -293,16 +296,16 @@ h1>span{ /* for && */
     margin: 0;
     padding: 0;
     font-family: 'Lora', serif;
-    font-size: 150%;
+    font-size: 3vh;
 }
 
 hr{
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    width: 50%;
 }
 
 .other-courses{
-    /*width: 50%;*/
     color: rgba(255, 255, 255, 0.5);
 }
 
@@ -318,8 +321,8 @@ hr{
 }
 
 .footer-background>a>i{
-    padding: 5px;
-    font-size: large;
+    padding-left: 20px;
+    font-size: 3vh;
     margin-top: 3vh;
 }
 
