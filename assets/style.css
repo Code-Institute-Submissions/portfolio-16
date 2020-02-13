@@ -14,14 +14,6 @@ a:hover {
   text-decoration: none;
 }
 
-/*.background{
-    width: 100vw;
-}*/
-
-/*.row{
-    margin: 0;
-}*/
-
 /* ----------------------------------------------------------------------------------------------------- Nav items */
 
     /*.nav-container{
@@ -89,17 +81,10 @@ h1>span{ /* for && */
 
 @media only screen and (max-width: 800px) {
     .hero-image{
-        background-size: 200%;    
+        background-size: 500%;    
     }
 }
-
-/* ----------------------------------------------------------------------------------------------------- Experience */
-
-.experience-background{
-    background-color: #EDCCB9;
-    /*min-height: 90vh;*/
-}
-
+/* ----------------------------------------------------------------------------------------------------- ALL PAGES Titles */
 .title-right>h2,
 .title-left>h2 {
     font-family: 'Lora', serif;
@@ -117,25 +102,36 @@ h1>span{ /* for && */
     right: 0;
 }
 
+.title-left>h2{
+    position: absolute;
+    bottom: 1%;
+    left: 0px;
+}
+/* ----------------------------------------------------------------------------------------------------- Experience */
+
+.experience-background{
+    background-color: #EDCCB9;
+    min-height: 90vh;
+}
+
+.experience-item{
+    background-color: rgba(255, 254, 254, 0.3);
+    margin: 2%;
+    padding: 3% 3% 3% 10%;
+    /*position: relative;
+    left: 30%;*/
+}
+
 .experience-item>h3{
     font-family: 'Lora', serif;
     color: #402429;
-    font-size: 170%;
+    font-size: 3vh;
     padding-bottom: 1%;
 }
 
 .experience-item span { /* Link to projects */
     font-weight: 300;
     text-align: right;
-}
-
-.experience-item{
-    background-color: rgba(255, 254, 254, 0.3);
-    width: 50%;
-    margin: 2%;
-    padding: 3% 3% 3% 10%;
-    position: relative;
-    left: 30%;
 }
 
 .languages-code {
@@ -169,13 +165,7 @@ h1>span{ /* for && */
 
 .I-like-background{
     background-color: #C3E1E3;
-    /*min-height: 90vh;*/
-}
-
-.title-left>h2{
-    position: absolute;
-    bottom: 1%;
-    left: 0px;
+    min-height: 90vh;
 }
 
 .I-like-wrapper{
@@ -190,7 +180,7 @@ h1>span{ /* for && */
     background-color: rgba(255, 255, 255, 0.5);
     width: 100%;
     /*min-height: 40vh;*/
-    margin: 5px;
+    margin: 20px 5px;
     padding: 5px;
     text-align: center;
 }
@@ -202,6 +192,7 @@ h1>span{ /* for && */
     background-size: 100%;
     background-repeat: no-repeat;
     margin: 0 auto;
+    margin-top: 5%;
 }
 
 .cocktail-img{
@@ -222,45 +213,63 @@ h1>span{ /* for && */
     padding-top: 20px;
 }
 
+/* content text */
 .I-like-item h3{
     color: #402429;
     font-family: 'Lora', serif;
-    line-height: 3vh;
-    font-size: 2vh;
+    line-height: 4vh;
+    font-size: 2.5vh;
 }
 
+/* + and = signs */
+.I-like-content>h3>span{
+    font-weight: 900;
+    font-size: 4vh;
+    color:rgb(8, 102, 109);
+    vertical-align: bottom;
+}
+
+/* My Projects stand out*/
 .I-like-content h2{
     text-align: center;
     color: #402429;
     font-family: 'Lora', serif;
-    font-size: 140%;
+    font-size: 2.8vh;
+    margin: 5% 20%;
+    padding: 3%;
     background-color: rgba(255, 255, 255, 0.5);  
 }
 
 .one-line-title{
-    line-height: 50px;
+    line-height: 6.5vh;
 }
 
 .I-like-content-links{
     font-weight: 300;
-    font-size: 75%;
+    font-size: 2vh;
     text-align: right;
-    padding-top: 2vh;
-    /*padding-bottom: 10%;*/
+    padding: 2vh;
+}
+
+.I-like-content-links a{
+    color:rgb(8, 102, 109);
+}
+
+.I-like-content-links a:hover {
+  color: #fff;;
+  text-decoration: none;
 }
 
 .shy-text-wrapper{
-    height: 100px;
+    height: 200px;
 }
 .shy-text {
-    /*position: absolute;
+    position: absolute;
     bottom: 0;
-
-    right: 0;*/
+    right: 0;
     text-align: left;
     margin-top: 5vh;
     color: rgba(255, 255, 255, 0.5);
-    float: right;
 }
 
 /* ----------------------------------------------------------------------------------------------------- What I studied */
@@ -271,7 +280,7 @@ h1>span{ /* for && */
 }
 
 .I-studied-wrapper{
-    margin-top: 20px;
+    margin-top: 8%;
     margin-bottom: 3%;
     display: inline;
     float: left;
@@ -305,12 +314,22 @@ hr{
     width: 50%;
 }
 
+.hr-right{
+    text-align: right;
+    margin-right: 0;
+}
+
+.hr-center{
+    text-align: center;
+}
+
 .other-courses{
     color: rgba(255, 255, 255, 0.5);
+    font-size: 110%;
 }
 
 .other-courses span{
-    font-size: 140%;
+    font-size: 130%;
 }
 
 
