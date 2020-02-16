@@ -143,28 +143,18 @@ h1>span{ /* for && */
 .experience-item i{
     color: #EDCCB9;
     font-size: 300%;
-    /*position: absolute;
-    left: 7%;
-    top: 40%;*/
+    position: absolute;
+    left: 5%;
+    top: 40%;
 }
     
 .right-icons{
-    left: 55% !important;
+    left: 45% !important;
 }
 
-.test {
-    background-color: red;
+.experience-text {
     display: inline-block;
-    text-align: center;
     padding: 0;
-    margin: 0;
-    height: 100%;
-}
-
-.test2 {
-  background-color: blue;
-  padding: 0;
-  margin: 0;
 }
 
 /* ----------------------------------------------------------------------------------------------------- I like doing */
