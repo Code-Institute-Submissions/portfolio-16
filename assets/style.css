@@ -40,14 +40,19 @@ nav ul{
 
 /* ----------------------------------------------------------------------------------------------------- Me */
 #main-title{
-    position: absolute;
-    left: 20vw;
-    top: 400px;
+    position: relative;
+    left: 0;
+    top: 0;
     font-family: 'Lora', serif;
     color:#402429;
     font-weight: 800;
     text-align: right;
     line-height: 1.6;
+    background-color: gold;
+}
+
+.block{
+    background-color: fuchsia;
 }
 h1>span{ /* for && */
     letter-spacing: -5px;
@@ -81,7 +86,7 @@ h1>span{ /* for && */
 
 @media only screen and (max-width: 800px) {
     .hero-image{
-        background-size: 500%;    
+        background-size: 300%;    
     }
 }
 /* ----------------------------------------------------------------------------------------------------- ALL PAGES Titles */
@@ -118,8 +123,8 @@ h1>span{ /* for && */
 .experience-item { 
     background-color: rgba(255, 254, 254, 0.3);
     padding: 3% 3% 3% 10%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 
 .experience-item>h3{
@@ -127,11 +132,12 @@ h1>span{ /* for && */
     color: #402429;
     font-size: 3vh;
     margin-bottom: 3%;
+    padding-right: 40px;
 }
 
 .experience-item p{
     font-size: 2vh;
-    margin: 3% 0;
+    margin-bottom: 3%;
 }
 
 .experience-item span { /* Link to projects */
@@ -149,7 +155,7 @@ h1>span{ /* for && */
 }
     
 .right-icons{
-    left: 45% !important;
+    left: 80% !important;
 }
 
 .experience-text {
@@ -209,6 +215,10 @@ h1>span{ /* for && */
     padding-top: 20px;
 }
 
+.margin-bottom {
+    margin-bottom: 100px;
+}
+
 /* content text */
 .I-like-item h3{
     color: #402429;
@@ -257,14 +267,15 @@ h1>span{ /* for && */
 }
 
 .shy-text-wrapper{
-    height: 200px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    bottom:0;
 }
 .shy-text {
-    position: absolute;
-    bottom: 0;
-    right: 0;
     text-align: left;
-    margin-top: 5vh;
     color: rgba(255, 255, 255, 0.5);
 }
 
@@ -278,7 +289,7 @@ h1>span{ /* for && */
 .I-studied-wrapper{
     margin-top: 8%;
     margin-bottom: 3%;
-    display: inline;
+    /*display: inline;*/
     float: left;
     /*background-color: fuchsia;*/
 }
@@ -321,11 +332,14 @@ hr{
 
 .other-courses{
     color: rgba(255, 255, 255, 0.5);
-    font-size: 110%;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    line-height: 22px;
 }
 
 .other-courses span{
-    font-size: 130%;
+    font-size: 18px;
 }
 
 
