@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lora:900,800,500|Raleway:100,200,300,400,500,600&display=swap');
 
-body{
+body {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     color: #fff;
@@ -9,51 +9,49 @@ body{
 a {
     color:#8D7569;
 }
+
 a:hover {
-  color: #fff;;
-  text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 
 /* ----------------------------------------------------------------------------------------------------- Nav items */
 
-    /*.nav-container{
-            position: fixed;
-            left: 50%;
-            z-index: 1;
-            height: 100%;
-            max-width: 1412px;
-            /*background-color: rgba(63, 169, 255, 0.2);
-    }*/
-
-
 nav {
     position: fixed;
     left: 5%;
-    top: 300px;
+    top: 350px;
     z-index: 1;
     text-align: right;
     font-family: 'Raleway', sans-serif;
 }
-nav ul{
+nav ul {
     list-style-type: none;
 }
 
 /* ----------------------------------------------------------------------------------------------------- Me */
+
+.hero-image{
+    background-image: url("images/hero_image.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: all .5s ease-in-out; 
+    height: 90vh;
+}
+
 #main-title{
     position: relative;
-    left: 0;
-    top: 0;
+    right: 30px;
+    top: 450px;
     font-family: 'Lora', serif;
     color:#402429;
     font-weight: 800;
     text-align: right;
     line-height: 1.6;
-    background-color: gold;
+    z-index: 1;
 }
 
-.block{
-    background-color: fuchsia;
-}
 h1>span{ /* for && */
     letter-spacing: -5px;
     color: white;
@@ -61,34 +59,38 @@ h1>span{ /* for && */
 
 #intro-text{
     position: absolute;
-    right: 10vw;
-    top: 100px;
+    right: 30px;
+    top: 30px;
     text-align: right;
     font-weight: 400;
 }
 
 #contact{
-    background-color: rgba(243, 243, 243, 0.295);
+    background-color: rgba(243, 243, 243, 0.815);
     position: absolute;
     color:#402429;
-    /*right: 20vw;*/
-    bottom: 0;
-}
-
-.hero-image{
-    background-image: url("images/hero_image.png");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    min-height: 800px; 
-    transition: all .5s ease-in-out; 
+    bottom: 5%;
 }
 
 @media only screen and (max-width: 800px) {
-    .hero-image{
-        background-size: 300%;    
+    .hero-image {
+        background-size: 250%;    
+    }
+
+    #main-title {
+    position: relative;
+    right: -30px;
+    top: 430px;
+    }
+
+    .mobile-background{
+        background-color: #fff;
+        height: 40vh;
+        position: relative;
+        top: 50vh;
     }
 }
+
 /* ----------------------------------------------------------------------------------------------------- ALL PAGES Titles */
 .title-right>h2,
 .title-left>h2 {
@@ -99,6 +101,7 @@ h1>span{ /* for && */
     text-align: right;
     padding: 0;
     margin:0;
+    z-index: 1;
 }
 
 .title-right>h2{
