@@ -25,13 +25,14 @@ nav {
     text-align: right;
     font-family: 'Raleway', sans-serif;
 }
+
 nav ul {
     list-style-type: none;
 }
 
 /* ----------------------------------------------------------------------------------------------------- Me */
 
-.hero-image{
+.hero-image {
     background-image: url("images/hero_image.png");
     background-position: center top;
     background-repeat: no-repeat;
@@ -40,7 +41,7 @@ nav ul {
     height: 90vh;
 }
 
-#main-title{
+#main-title {
     position: relative;
     right: 30px;
     top: 450px;
@@ -52,42 +53,79 @@ nav ul {
     z-index: 1;
 }
 
-h1>span{ /* for && */
+h1>span { /* for && */
     letter-spacing: -5px;
     color: white;
 }
 
-#intro-text{
-    position: absolute;
-    right: 30px;
-    top: 30px;
+#intro-text {
     text-align: right;
     font-weight: 400;
 }
 
-#contact{
+#intro-text p{
+    /*margin: 0;*/
+    font-size: 14px;
+}
+
+.hello-text{
+    padding-top: 8%;
+    font-weight: 700;
+    font-size: 16px !important;
+}
+
+#contact {
     background-color: rgba(243, 243, 243, 0.815);
-    position: absolute;
     color:#402429;
+    padding: 2%;
+    position: absolute;
     bottom: 5%;
+}
+
+#contact h5,
+#contact h6{
+    margin: 0;
+    padding: 0;
+}
+
+#contact h6 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 2;
+}
+
+#contact h6 span{
+    font-weight: 300;
 }
 
 @media only screen and (max-width: 800px) {
     .hero-image {
-        background-size: 250%;    
+        background-size: 200%;    
     }
 
     #main-title {
-    position: relative;
-    right: -30px;
-    top: 430px;
+        position: absolute;
+        left: 0;
+        top: -150px;
+        text-align: center;
+        background-color: rgba(243, 243, 243, 0.5);
     }
 
-    .mobile-background{
-        background-color: #fff;
-        height: 40vh;
+    #contact h6 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 2;
+    }
+
+    #contact h6 span{
+        font-weight: 300;
+    }
+
+    .mobile-background {
+        background-color: #EDCCB9;
+        height: 30vh;
         position: relative;
-        top: 50vh;
+        top: 60vh;
     }
 }
 
