@@ -98,7 +98,7 @@ h1>span { /* for && */
     font-weight: 300;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1200px) {
     .hero-image {
         background-size: 200%;    
     }
@@ -106,19 +106,39 @@ h1>span { /* for && */
     #main-title {
         position: absolute;
         left: 0;
-        top: -150px;
+        top: -92px;
         text-align: center;
         background-color: rgba(243, 243, 243, 0.5);
     }
 
-    #contact h6 {
+    h1{
+        font-size: 24px;
+        margin: 5px 0 5px 0;
+    }
+
+    .hello-text{
+        padding-top: 10%;
+        font-weight: 700;
+        font-size: 14px !important;
+    }
+
+    #contact h5 {
     font-size: 16px;
-    font-weight: 600;
-    line-height: 2;
+    }
+
+    #contact h6 {
+    font-size: 12px;
     }
 
     #contact h6 span{
         font-weight: 300;
+    }
+
+    #intro-text {
+        height: 100%;
+        /*background-color: gold;*/
+        /*display: table-cell;
+        vertical-align: middle;*/
     }
 
     .mobile-background {
