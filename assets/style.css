@@ -44,10 +44,10 @@ nav ul {
 #main-title {
     position: relative;
     right: 30px;
-    top: 450px;
+    top: 350px;
     font-family: 'Lora', serif;
     color:#402429;
-    font-weight: 800;
+    font-weight: 900;
     text-align: right;
     line-height: 1.6;
     z-index: 1;
@@ -98,10 +98,25 @@ h1>span { /* for && */
     font-weight: 300;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) and (min-width: 1100px){
+    .hero-image {
+        background-size: 500%;    
+    }
+        #main-title {
+        position: relative;
+        top: 750px;
+    }
+    #intro-text {
+        position: relative;
+        right: -130px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
     .hero-image {
         background-size: 200%;    
     }
+    
 
     #main-title {
         position: absolute;
