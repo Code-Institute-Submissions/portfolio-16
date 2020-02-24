@@ -10,6 +10,50 @@ Other than that, there is a link to the Things I created: so far this reference 
 ## UX
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+### PROJECT IDEA: Personal portfolio site
+The users of this website are mainly recruiters or people that would like to know my work better.
+
+### STRATEGY PLANE
+
+Basic business objectives:
+    * Atract future employers and colaborators - focus on coding and design
+    * Create a portfolio easy to be updated
+    * To have an online id other than social Media
+    * Feel confident about my work
+    * Show I'm alaways interested in learning
+
+User needs:
+    * Understand my work experience
+    * Get enough information to understand if I can be a good choice to join their team
+    * Have access to my education history
+    * Understand my professional profile
+    * Find all information easily and quickly
+    * Understand my interests and where I want to go with my career
+
+### SCOPE PLANE
+
+Features:
+    * Contact info: email, phone number, city
+    * Social Media: Behance, LinkedIn, YouTube, Facebook.
+    * Work experience: focus only on design and coding jobs.
+    * Hobbies and personal projects: 
+        ** Linguistics + French language + video editing = CocktailF
+        ** Creativity + bahaviour = My graduation project
+        ** Thinking outside of the box = how I got my fist job in Ireland, Smartbox CV
+        ** Other hobbies (less important) = video game, reading, creation, etc.
+    * Presentation page: photo, a short text explaining from where I come, where I want to go and what motivates me
+    * Study/University: Graphic Designer, Corporative Communicator, Code institute, self taught in LinkedIn learning and other online platforms
+    * Languages: I speak (Portuguese, English and French) and I code (Html, CSS, Bootstrap, Javascript, RegEx).
+    * Skills: Indesign, Photoshop, Illustrator, Premiere Pro, After Effects.
+
+_To be developed to present future coding projects:_
+    * Portfolio section: Design projects, coding projects and personal projects.
+
+### STRUCTURE PLANE
+
+Find Here the wire frames for the information architecture:
+![STRUCTURE 1](/other_assets/Web 1920 - 1.png)
+Format: ![Alt Text](url)
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
