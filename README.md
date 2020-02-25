@@ -54,7 +54,7 @@ _To be developed to present future coding projects:_
 Find Here the wire frames for the information architecture:
 ![STRUCTURE 1](/other_assets/Web 1920 - 1.png)
 Format: ![Alt Text](url)
-
+______
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
 
