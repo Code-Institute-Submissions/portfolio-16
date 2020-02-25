@@ -16,38 +16,38 @@ The users of this website are mainly recruiters or people that would like to kno
 ### STRATEGY PLANE
 
 Basic business objectives:
-    * Atract future employers and colaborators - focus on coding and design
-    * Create a portfolio easy to be updated
-    * To have an online id other than social Media
-    * Feel confident about my work
-    * Show I'm alaways interested in learning
+    - Atract future employers and colaborators - focus on coding and design
+    - Create a portfolio easy to be updated
+    - To have an online id other than social Media
+    - Feel confident about my work
+    - Show I'm alaways interested in learning
 
 User needs:
-    * Understand my work experience
-    * Get enough information to understand if I can be a good choice to join their team
-    * Have access to my education history
-    * Understand my professional profile
-    * Find all information easily and quickly
-    * Understand my interests and where I want to go with my career
+    - Understand my work experience
+    - Get enough information to understand if I can be a good choice to join their team
+    - Have access to my education history
+    - Understand my professional profile
+    - Find all information easily and quickly
+    - Understand my interests and where I want to go with my career
 
 ### SCOPE PLANE
 
 Features:
-    * Contact info: email, phone number, city
-    * Social Media: Behance, LinkedIn, YouTube, Facebook.
-    * Work experience: focus only on design and coding jobs.
-    * Hobbies and personal projects: 
-        ** Linguistics + French language + video editing = CocktailF
-        ** Creativity + bahaviour = My graduation project
-        ** Thinking outside of the box = how I got my fist job in Ireland, Smartbox CV
-        ** Other hobbies (less important) = video game, reading, creation, etc.
-    * Presentation page: photo, a short text explaining from where I come, where I want to go and what motivates me
-    * Study/University: Graphic Designer, Corporative Communicator, Code institute, self taught in LinkedIn learning and other online platforms
-    * Languages: I speak (Portuguese, English and French) and I code (Html, CSS, Bootstrap, Javascript, RegEx).
-    * Skills: Indesign, Photoshop, Illustrator, Premiere Pro, After Effects.
+    - Contact info: email, phone number, city
+    - Social Media: Behance, LinkedIn, YouTube, Facebook.
+    - Work experience: focus only on design and coding jobs.
+    - Hobbies and personal projects: 
+        -- Linguistics + French language + video editing = CocktailF
+        -- Creativity + bahaviour = My graduation project
+        -- Thinking outside of the box = how I got my fist job in Ireland, Smartbox CV
+        -- Other hobbies (less important) = video game, reading, creation, etc.
+    - Presentation page: photo, a short text explaining from where I come, where I want to go and what motivates me
+    - Study/University: Graphic Designer, Corporative Communicator, Code institute, self taught in LinkedIn learning and other online platforms
+    - Languages: I speak (Portuguese, English and French) and I code (Html, CSS, Bootstrap, Javascript, RegEx).
+    - Skills: Indesign, Photoshop, Illustrator, Premiere Pro, After Effects.
 
 _To be developed to present future coding projects:_
-    * Portfolio section: Design projects, coding projects and personal projects.
+    - Portfolio section: Design projects, coding projects and personal projects.
 
 ### STRUCTURE PLANE
 
@@ -80,7 +80,7 @@ In addition, you may also use this section to discuss plans for additional featu
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 - [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+    - The project uses --JQuery-- to simplify DOM manipulation.
 
 
 ## Testing
