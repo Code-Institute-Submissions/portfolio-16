@@ -16,74 +16,101 @@ The users of this website are mainly recruiters or people that would like to kno
 ### STRATEGY PLANE
 
 Basic business objectives:
-    - Atract future employers and colaborators - focus on coding and design
-    - Create a portfolio easy to be updated
-    - To have an online id other than social Media
-    - Feel confident about my work
-    - Show I'm alaways interested in learning
+- Atract future employers and colaborators - focus on coding and design
+- Create a portfolio easy to be updated
+- To have an online id other than social Media
+- Feel confident about my work
+- Show I'm alaways interested in learning
 
 User needs:
-    - Understand my work experience
-    - Get enough information to understand if I can be a good choice to join their team
-    - Have access to my education history
-    - Understand my professional profile
-    - Find all information easily and quickly
-    - Understand my interests and where I want to go with my career
+- Understand my work experience
+- Get enough information to understand if I can be a good choice to join their team
+- Have access to my education history
+- Understand my professional profile
+- Find all information easily and quickly
+- Understand my interests and where I want to go with my career
 
 ### SCOPE PLANE
 
 Features:
-    - Contact info: email, phone number, city
-    - Social Media: Behance, LinkedIn, YouTube, Facebook.
-    - Work experience: focus only on design and coding jobs.
-    - Hobbies and personal projects: 
-        -- Linguistics + French language + video editing = CocktailF
-        -- Creativity + bahaviour = My graduation project
-        -- Thinking outside of the box = how I got my fist job in Ireland, Smartbox CV
-        -- Other hobbies (less important) = video game, reading, creation, etc.
-    - Presentation page: photo, a short text explaining from where I come, where I want to go and what motivates me
-    - Study/University: Graphic Designer, Corporative Communicator, Code institute, self taught in LinkedIn learning and other online platforms
-    - Languages: I speak (Portuguese, English and French) and I code (Html, CSS, Bootstrap, Javascript, RegEx).
-    - Skills: Indesign, Photoshop, Illustrator, Premiere Pro, After Effects.
+- Contact info: email, phone number, city
+- Social Media: Behance, LinkedIn, YouTube, Facebook.
+- Work experience: focus only on design and coding jobs.
+- Hobbies and personal projects: 
+    - Linguistics + French language + video editing = CocktailF
+    - Creativity + bahaviour = My graduation project
+    - Thinking outside of the box = how I got my fist job in Ireland, Smartbox CV
+    - Other hobbies (less important) = video game, reading, creation, etc.
+- Presentation page: photo, a short text explaining from where I come, where I want to go and what motivates me
+- Study/University: Graphic Designer, Corporative Communicator, Code institute, self taught in LinkedIn learning and other online platforms
+- Languages: I speak (Portuguese, English and French) and I code (Html, CSS, Bootstrap, Javascript, RegEx).
+- Skills: Indesign, Photoshop, Illustrator, Premiere Pro, After Effects.
 
 _To be developed to present future coding projects:_
-    - Portfolio section: Design projects, coding projects and personal projects.
+- Portfolio section: Design projects, coding projects and personal projects.
 
 ### STRUCTURE PLANE
 
 Find Here the wire frames for the information architecture:
-![STRUCTURE 1](/other_assets/Web 1920 - 1.png)
-Format: ![Alt Text](url)
-______
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+![1](other_assets/STR-1.png)
+![2](other_assets/STR-2.png)
+![3](other_assets/STR-3.png)
+![4](other_assets/STR-4.png)
+![5](other_assets/STR-5.png)
+![6](other_assets/STR-6.png)
 
-## Features
+### SKELETON PLANE
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+Find here the firsts mockups for this project:
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+![1](other_assets/MOCKUP-1.png)
+![2](other_assets/MOCKUP-2.png)
+![3](other_assets/MOCKUP-3.png)
+![4](other_assets/MOCKUP-4.png)
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+### SURFACE
 
-### Features Left to Implement
-- Another feature idea
+Find the project live on https://fergabi17.github.io/portfolio/
+
+User Stories:
+- As a recruiter, I want to download a cv, so I can click on CV.
+- As a recruiter, I want to access Fernanda's contact information, so I can click on ME or scroll up to the initial page.
+- As a recruiter, I want to check Fernanda's experience, so I can click on EXPERIENCE or scroll down.
+- As a recruiter, I want to check Fernanda's education, so I can click on Where I studied or scroll down.
+- As a colleague, I want to check Fernanda's interests, so I can click on What I like doing or scroll down.
+- As a colleague, I want to acess Fernanda's social media, so I can scroll down until the end of the page.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+- [Html](https://html.com)
+    - The project uses --HTML5-- standard markup language for creating Web pages.
 
-- [JQuery](https://jquery.com)
-    - The project uses --JQuery-- to simplify DOM manipulation.
+- [CSS](https://www.css3.info)
+    - The project uses --CSS3-- to style the website.
+
+- [BOOTSTRAP](https://getbootstrap.com)
+    - The project uses the grid system from --BOOTSTRAP-- and also other tools to get the website responsive.
 
 
 ## Testing
+
+- Responsiveness
+
+The website is responsive, presenting the content in a different way according to the size of the screen.
+Phones and tablets will present:
+- A shorter introduction text
+- A smaller hero image
+- No navigation menu - all navigation is made scrolling the page down
+- No access to CV download
+- All columns are presented ocuping the full width of the screen
+
+large screens will show:
+- A complete intrudution text
+- The full picture for the hero-image section
+- A Naviagation menu, to jump straigh away to the content of your interested
+- CV download
+- Columns can be grouped side by side
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
