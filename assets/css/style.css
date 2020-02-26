@@ -292,10 +292,6 @@ h1>span { /* for && */
     padding-top: 20px;
 }
 
-.margin-bottom {
-    margin-bottom: 100px;
-}
-
 /* content text */
 .I-like-item h3{
     color: #402429;
@@ -343,15 +339,18 @@ h1>span { /* for && */
   text-decoration: none;
 }
 
-.shy-text-wrapper{
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    bottom:0;
-}
-.shy-text {
+#shy-text {
     text-align: left;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 1.8px;
+    display: inline-block;
+    width: 100%;
+    margin-top: 5%;
+    margin-left:5%;
+    margin-bottom: 100px;
+    padding: 0px;
 }
 
 /* ----------------------------------------------------------------------------------------------------- What I studied */
@@ -364,14 +363,10 @@ h1>span { /* for && */
 .I-studied-wrapper{
     margin-top: 8%;
     margin-bottom: 3%;
-    /*display: inline;*/
     float: left;
-    /*background-color: fuchsia;*/
 }
 
 .I-studied-item {
-    /*display: block;
-    float: right;*/
     margin-left: 20px;
     color: #402429;
 }
@@ -406,11 +401,12 @@ hr{
 }
 
 .other-courses{
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.8);
     font-size: 14px;
     padding: 0;
     margin: 0;
-    line-height: 22px;
+    line-height: 26px;
+    letter-spacing: 1.5px;
 }
 
 .other-courses span{
