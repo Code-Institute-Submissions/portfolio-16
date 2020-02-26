@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lora:900,800,500|Raleway:100,200,300,400,500,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora:900,800,500|Raleway:100,200,300,400,500,600,700,800,900&display=swap');
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -24,6 +24,13 @@ nav {
     z-index: 1;
     text-align: right;
     font-family: 'Raleway', sans-serif;
+    line-height: 2;
+}
+
+nav a {
+    font-weight: 700;
+    letter-spacing: 2px;
+    color:#402429;
 }
 
 nav ul {
@@ -64,7 +71,6 @@ h1>span { /* for && */
 }
 
 #intro-text p{
-    /*margin: 0;*/
     font-size: 14px;
 }
 
@@ -151,9 +157,6 @@ h1>span { /* for && */
 
     #intro-text {
         height: 100%;
-        /*background-color: gold;*/
-        /*display: table-cell;
-        vertical-align: middle;*/
     }
 
     .mobile-background {
@@ -197,7 +200,7 @@ h1>span { /* for && */
 }
 
 .experience-item { 
-    background-color: rgba(255, 254, 254, 0.3);
+    background-color: rgb(216, 182, 165);
     padding: 3% 3% 3% 10%;
     margin-top: 4%;
     margin-bottom: 4%;
@@ -247,19 +250,17 @@ h1>span { /* for && */
 }
 
 .I-like-wrapper{
-    /*background-color: rgb(221, 230, 213);*/
     min-height: 100%;
-    /*padding-left: 30vw;*/
-    margin: 0;
+    padding: 0;
 }
 
 .I-like-item {
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.5);
     width: 100%;
-    /*min-height: 40vh;*/
-    margin: 20px 5px;
-    padding: 5px;
+    margin-top: 5%;
+    margin-left:5%;
+    padding: 0px;
     text-align: center;
 }
 
@@ -343,10 +344,8 @@ h1>span { /* for && */
 }
 
 .shy-text-wrapper{
-    height: 100px;
     padding: 0;
     margin: 0;
-    overflow: hidden;
     position: absolute;
     bottom:0;
 }
@@ -430,12 +429,3 @@ hr{
     font-size: 3vh;
     margin-top: 3vh;
 }
-
-
-
-
-
-
-
-
-
