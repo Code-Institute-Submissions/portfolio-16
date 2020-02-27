@@ -64,10 +64,10 @@ Find Here the wire frames for the information architecture:
 
 Find here the firsts mockups for this project:
 
-![1](other_assets/MOCKUP– 1.png)
-![2](other_assets/MOCKUP– 2.png)
-![3](other_assets/MOCKUP– 3.png)
-![4](other_assets/MOCKUP– 4.png)
+![1](other_assets/MOCKUP-1.png)
+![2](other_assets/MOCKUP-2.png)
+![3](other_assets/MOCKUP-3.png)
+![4](other_assets/MOCKUP-4.png)
 
 ### SURFACE
 
