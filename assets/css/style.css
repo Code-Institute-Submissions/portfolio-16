@@ -104,26 +104,14 @@ h1>span { /* for && */
     font-weight: 300;
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 1100px){
+@media only screen and (max-width: 1200px) {
     .hero-image {
         background-size: 200%;    
-    }
-        #main-title {
-        position: relative;
-        top: 750px;
-    }
-    #intro-text {
-        position: relative;
-        right: -130px;
     }
 }
 
 @media only screen and (max-width: 1000px) {
-    .hero-image {
-        background-size: 200%;    
-    }
     
-
     #main-title {
         position: absolute;
         left: 0;
@@ -184,8 +172,12 @@ h1>span { /* for && */
     margin: 0;
 }
 
-.title-bar{
+.title-bar {
     height: 60px;
+}
+
+.title-bar-2 {
+    height: 100px;
 }
 
 /* ----------------------------------------------------------------------------------------------------- Experience */
@@ -256,7 +248,8 @@ h1>span { /* for && */
     background-color: rgba(255, 255, 255, 0.5);
     width: 100%;
     margin-top: 5%;
-    margin-left:5%;
+    margin-left:2%;
+    margin-right: 2%;
     padding: 0px;
     text-align: center;
 }
@@ -285,7 +278,6 @@ h1>span { /* for && */
 
 .I-like-content {
     width: 100%;
-    /*min-height: 200px;*/
     padding-top: 20px;
 }
 
@@ -346,7 +338,7 @@ h1>span { /* for && */
     width: 100%;
     margin-top: 5%;
     margin-left:5%;
-    margin-bottom: 100px;
+    margin-bottom: 5%;
     padding: 0px;
 }
 
