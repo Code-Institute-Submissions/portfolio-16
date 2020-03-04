@@ -53,21 +53,21 @@ _To be developed to present future coding projects:_
 
 Find Here the wire frames for the information architecture:
 
-![1](other_assets/STR-1.png)
-![2](other_assets/STR-2.png)
-![3](other_assets/STR-3.png)
-![4](other_assets/STR-4.png)
-![5](other_assets/STR-5.png)
-![6](other_assets/STR-6.png)
+![1](wireframes/STR-1.png)
+![2](wireframes/STR-2.png)
+![3](wireframes/STR-3.png)
+![4](wireframes/STR-4.png)
+![5](wireframes/STR-5.png)
+![6](wireframes/STR-6.png)
 
 ### SKELETON PLANE
 
 Find here the firsts mockups for this project:
 
-![1](other_assets/MOCKUP-1.png)
-![2](other_assets/MOCKUP-2.png)
-![3](other_assets/MOCKUP-3.png)
-![4](other_assets/MOCKUP-4.png)
+![1](wireframes/MOCKUP-1.png)
+![2](wireframes/MOCKUP-2.png)
+![3](wireframes/MOCKUP-3.png)
+![4](wireframes/MOCKUP-4.png)
 
 ### SURFACE
 

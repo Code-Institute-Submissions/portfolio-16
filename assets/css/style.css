@@ -155,6 +155,13 @@ h1>span { /* for && */
     }
 }
 
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  /* For portrait layouts only */
+  .hero-image {
+        background-size: 140%;    
+    }
+}
+
 /* ----------------------------------------------------------------------------------------------------- ALL PAGES Titles */
 
 .titles>h2 {
