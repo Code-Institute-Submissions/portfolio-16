@@ -8,7 +8,9 @@ The website also has a link to a CV download, in pdf format - available only for
 Other than that, there is a link to the Things I created: so far this reference points to my behance portfolio, but for the future this will be reserved to a new section from the website, which is going to show my coding projects.
  
 ## UX
- 
+
+![1](wireframes/responsive.png)
+
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 ### PROJECT IDEA: Personal portfolio site
 The users of this website are mainly recruiters or people that would like to know my work better.
@@ -52,22 +54,21 @@ _To be developed to present future coding projects:_
 ### STRUCTURE PLANE
 
 Find Here the wire frames for the information architecture:
-
-![1](wireframes/STR-1.png)
-![2](wireframes/STR-2.png)
-![3](wireframes/STR-3.png)
-![4](wireframes/STR-4.png)
-![5](wireframes/STR-5.png)
-![6](wireframes/STR-6.png)
+[Wireframe 1](wireframes/STR-1.png)
+[Wireframe 2](wireframes/STR-2.png)
+[Wireframe 3](wireframes/STR-3.png)
+[Wireframe 4](wireframes/STR-4.png)
+[Wireframe 5](wireframes/STR-5.png)
+[Wireframe 6](wireframes/STR-6.png)
 
 ### SKELETON PLANE
 
 Find here the firsts mockups for this project:
 
-![1](wireframes/MOCKUP-1.png)
-![2](wireframes/MOCKUP-2.png)
-![3](wireframes/MOCKUP-3.png)
-![4](wireframes/MOCKUP-4.png)
+[Mockup 1](wireframes/MOCKUP-1.png.png)
+[Mockup 2](wireframes/MOCKUP-2.png.png)
+[Mockup 3](wireframes/MOCKUP-3.png.png)
+[Mockup 4](wireframes/MOCKUP-4.png.png)
 
 ### SURFACE
 
@@ -92,6 +93,26 @@ User Stories:
 - [BOOTSTRAP](https://getbootstrap.com)
     - The project uses the grid system from --BOOTSTRAP-- and also other tools to get the website responsive.
 
+- [Google Chrome](https://www.google.com/chrome/)
+    - Browser and developer tools
+
+- [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new)
+    - Browser and developer tools
+
+- [Safari](https://www.apple.com/safari/)
+    - Browser and developer tools
+
+- [GitPod](https://https://gitpod.io/)
+    - This project was built using gitpod IDE
+
+- [Git](https://git-scm.com/)
+    - Used for Version Control
+
+- [GitHub](https://github.com/)
+    - Used for Repository
+
+- [Am I Responsive](http://ami.responsivedesign.is)
+    - Testing responsiveness of the website
 
 ## Testing
 
@@ -105,7 +126,7 @@ Phones and tablets will present:
 - No access to CV download
 - All columns are presented ocuping the full width of the screen
 
-large screens will show:
+Large screens will show:
 - A complete intrudution text
 - The full picture for the hero-image section
 - A Naviagation menu, to jump straigh away to the content of your interested
@@ -114,7 +135,27 @@ large screens will show:
 
 ## Deployment
 
-This project was deployed on github: https://github.com/fergabi17/portfolio
+This project is hosted on [GitHub](https://github.com/fergabi17/portfolio/)
+
+The git repository contains:
+ - README file
+ - index.html - that's your homepage
+ - Assets folder with images and styles for the website
+ - Resurces folder with resources found on the website
+ - Wireframes folder that explains the creation process
+ 
+To deploy your own version of the website:
+- Have git installed
+- Visit the [repository]([GitHub](https://github.com/fergabi17/portfolio/))
+- Click 'Clone or download' and copy the code for http
+- Open your chosen IDE (Cloud9, VS Code, etc.)
+- Open a terminal in your root directory
+- Type 'git clone ' followed by the code taken from github repository
+    - ```git clone https://github.com/fergabi17/portfolio/```
+- When this completes you have your own version of the website
+- The website can be run by opening one of the HTML files within a web browser
+
+This site was developed in GitPod.
 
 ## Credits
 
@@ -124,3 +165,13 @@ This project was deployed on github: https://github.com/fergabi17/portfolio
 ### Acknowledgements
 
 - I received inspiration for this project from Elizapeth Lin's website https://www.elizabethylin.com/
+- Other websites that helped the process with reseach:
+    - https://css-tricks.com/
+    - https://www.w3schools.com/
+    - https://stackoverflow.com/
+    - https://github.com/Pattern-Projects/oireachtas-ifd-project/
+
+Thank you for mentorint and suport:
+ - Code institute
+ - Seun Owonikoko
+ - Code institude tutors

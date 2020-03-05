@@ -104,12 +104,14 @@ h1>span { /* for && */
     font-weight: 300;
 }
 
+/* ---------- Hero image size for tablets and phones*/
 @media only screen and (max-width: 1200px) {
     .hero-image {
         background-size: 200%;    
     }
 }
 
+/* ---------- Me section for phones */
 @media only screen and (max-width: 1000px) {
     
     #main-title {
@@ -152,13 +154,6 @@ h1>span { /* for && */
         height: 30vh;
         position: relative;
         top: 60vh;
-    }
-}
-
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
-  /* For portrait layouts only */
-  .hero-image {
-        background-size: 140%;    
     }
 }
 
@@ -420,4 +415,60 @@ hr{
     padding-left: 20px;
     font-size: 3vh;
     margin-top: 3vh;
+}
+/* ----------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------  IPAD PRO ONLY */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation:portrait) {
+  /* ------------------------------------------------------- ME */
+  .hero-image {
+        background-size: 160%;    
+    }
+    #intro-text {
+        position: relative;
+        left: 100px;
+        top: 80px;
+    }
+    #main-title {
+        position: absolute;
+        left: 0;
+        top: 50%;
+    }
+    .title-bar{
+        margin-bottom: 80px;
+    }
+/* ------------------------------------------------------- ALL PAGES Titles */
+    .titles>h2{
+        font-size: 4.5vh !important;
+    }
+/* ------------------------------------------------------- I LIKE */
+    .I-like-item h3{
+        font-size: 2vh !important;
+    }
+
+    /* + and = signs */
+    .I-like-content>h3>span{
+        font-size: 3vh !important;
+    }
+
+    /* My Projects stand out*/
+    .I-like-content h2{
+        font-size: 2.2vh !important;
+    }
+
+    .one-line-title{
+        line-height: 3.9vh !important;
+    }
+
+/* ------------------------------------------------------- I STUDIED */
+    .I-studied-item>h3{
+    font-size: 2vh !important;
+    }
+    .I-studied-item>h4{
+    font-size: 1.5vh !important;
+    }
+    .other-courses{
+        position: relative;
+        top: 100px;
+    }
 }
