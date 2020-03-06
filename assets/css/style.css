@@ -363,7 +363,7 @@ h1>span { /* for && */
 }
 
 .I-studied-item h4, .I-studied-item p {
-    font-weight: 300px;
+    font-weight: 300;
     font-size: 2vh;
     margin: 0;
     padding-top: 8px;
@@ -419,7 +419,7 @@ hr{
 /* ----------------------------------------------------------------------------------------------------------------------- */
 /* --------------------------------------------------------------------------------------------------------  IPAD PRO ONLY */
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation:portrait) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation:portrait) {
   /* ------------------------------------------------------- ME */
   .hero-image {
         background-size: 160%;    
