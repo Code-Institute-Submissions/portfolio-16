@@ -9,7 +9,7 @@ Other than that, there is a link to the Things I created: so far this reference 
  
 ## UX
 
-![1](wireframes/responsive.png)
+![1](ux/responsive.png)
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 ### PROJECT IDEA: Personal portfolio site
@@ -114,9 +114,30 @@ User Stories:
 - [Am I Responsive](http://ami.responsivedesign.is)
     - Testing responsiveness of the website
 
+- [Html validator](https://validator.w3.org/nu/#textarea)
+    - Validating HTML code
+
+- [Css validator](https://jigsaw.w3.org/css-validator/validator)
+    - Validating CSS code
+
 ## Testing
 
-- Responsiveness
+Manual tests were made by the developer, the project's mentor and also by potencial users. 
+The following browsers were used:
+- Google chrome
+- Mozilla Firefox
+- Safari
+
+The tests included: 
+- Functional links
+- Links to other websites open on a new tab
+- Information easily found
+- Readability
+
+The CSS and the HTML codes were validated on jigsaw.w3.org and validator.w3.org
+
+![Html validation](ux/html-validation.png)
+![CSS validation](ux/css-validation.png)
 
 The website is responsive, presenting the content in a different way according to the size of the screen.
 Phones and tablets will present:
