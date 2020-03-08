@@ -54,13 +54,14 @@ _To be developed to present future coding projects:_
 ### STRUCTURE PLANE
 
 Find Here the wire frames for the information architecture:
-[WireframeS](wireframes/wireframes.html)
+
+[Wireframes](https://fergabi17.github.io/portfolio/wireframes/wireframes.html)
 
 ### SKELETON PLANE
 
 Find here the firsts mockups for this project:
 
-[Mockups](wireframes/mockup.html)
+[Mockups](https://fergabi17.github.io/portfolio/wireframes/mockup.html)
 
 ### SURFACE
 
